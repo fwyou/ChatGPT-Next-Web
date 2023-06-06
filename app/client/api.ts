@@ -100,6 +100,7 @@ export function getHeaders() {
     "x-requested-with": "XMLHttpRequest",
   };
 
+  //todo ywf token哪里来
   const makeBearer = (token: string) => `Bearer ${token.trim()}`;
   const validString = (x: string) => x && x.length > 0;
 

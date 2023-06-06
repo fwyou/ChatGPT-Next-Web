@@ -289,6 +289,7 @@ export function PreviewActions(props: {
       .finally(() => setLoading(false));
   };
 
+  //todo ywf 是否是git访问地址，将其屏蔽
   const share = async () => {
     if (props.messages?.length) {
       setLoading(true);
